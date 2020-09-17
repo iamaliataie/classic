@@ -1,0 +1,264 @@
+
+body{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
+/* header */
+
+header .navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(14, 66, 90);
+    margin: 0;
+}
+
+.navigation .icons{
+    display: flex;
+}
+
+.navigation .icons img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.navigation .search .search-cover{
+    background-color:rgba(255, 255, 255, .5);
+    border-radius: 30px;
+    display: flex;
+    padding: 5px 20px;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-cover input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: rgb(53, 52, 52);
+}
+
+.search-cover img{
+    width: 25px;
+    justify-content: flex-end;
+    border-radius: 100%;
+}
+
+.header-container{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+}
+
+.header-caption h1, .header-caption p{
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.header-caption h1{
+    font-size: 3em;
+    font-family: Montserrat;
+}
+
+.header-menu a{
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 1em;
+    color: black;
+}
+
+/* slider */
+
+.slider{
+    display: grid;
+    padding: 20px 7px;
+    background-color: rgb(14, 66, 90);
+    grid-template-columns: 2fr 4fr;
+}
+
+.slider .caption{
+    background-color:rgb(10, 49, 66);
+    padding: 10px 15px;
+    color: white;
+}
+
+.slider .caption .arrows{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider .caption .arrows a{
+    color: white;
+}
+
+.slider .caption .texts p{
+    color: white;
+    text-align: justify;
+}
+
+.slider .image{
+    position: relative;
+}
+.slider .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.slider .image p{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transform: translate(0%,-50%);
+    font-weight: bold;
+    font-size: 2em;
+    font-family: Montserrat;
+}
+
+/* text slider */
+
+.text-slider{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    padding: 20px 15px;
+    background-color: rgb(228, 228, 228);
+    align-items: center;
+}
+
+.text-slider .arrow{
+    color: black;
+    text-align: center;
+}
+
+.text-slider .arrow a{
+    color: black;
+}
+
+.text-slider .text{
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    border-left: 1px solid rgb(194, 192, 192);;
+    border-right: 1px solid rgb(194, 192, 192);;
+    font-style: italic;
+}
+
+hr{
+    border: 1px solid rgb(228, 228, 228);
+}
+
+/* topics */
+
+.topics{
+    margin: 20px 0;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+}
+
+.topics .topic1{
+    padding: 0px 20px;
+    margin-right: 10px;
+}
+
+.topics .topic1 .picture{
+    width: 100%;
+    height: 180px;
+    padding: 5px;
+    border: 1px solid black;
+    color: white;
+    background-color: dimgray;
+    text-align: center;
+    line-height: 180px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 8px 0px rgb(51, 51, 51);
+}
+
+.topics .topic1 .description{
+    text-align: justify;
+}
+
+.continue{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.continue p{
+    margin-right: 10px;
+}
+
+.sub-topics{
+    padding: 10px;
+}
+
+.sub-topic-frame img{
+    width: 48px;
+    height: 48px;
+    /* background-color: sienna; */
+    float: left;
+    margin: 0px 5px 5px 0px;
+}
+
+.sub-topics p{
+    text-align: justify;
+}
+
+/* footer */
+footer{
+    background-color: rgb(228, 228, 228);
+
+}
+footer .description{
+    display: grid;
+    grid-template-columns: 3fr 1.5fr 1.5fr;
+    padding: 10px;
+}
+
+footer .description .first{
+    margin-right: 20px;
+}
+
+footer .description .first .one{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .description .first img {
+    width: 110px;
+    height: 110px;
+    margin-right: 10px;
+    margin-top:10px ;
+}
+
+footer .description .second{
+margin-right: 20px;
+}
+
+footer .description .third{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+footer .description .third img{
+    width: 100%;
+}
+
+footer .copyright{ 
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(194, 192, 192);
+}
